@@ -1,5 +1,5 @@
 package main;
-
+//modifica per github
 /**
  * Classe GiuriClass </br>
  * <u>4AI</u></br>
