@@ -24,8 +24,8 @@ public class GiuriClass {
 	 */
 	public float giuriMet(int b, int e) {
 		int val1 = 1;
-		for (int i = 1; i <= b; i++) {
-			val1 = val1 * b;
+		for (int i = 1; i <= e; i++) {
+			val1 *= b;    //errore corretto!!!
 		}
 		return val1;
 	}
@@ -36,7 +36,7 @@ public class GiuriClass {
 	 */
 	public static void main(String[] args) {
 		GiuriClass g = new GiuriClass();
-		System.out.println(g.giuriMet(2, 3));
+		System.out.println(g.giuriMet(3, 7));
 		System.out.println(g.giuriMet(4, 5));
 	}
 
